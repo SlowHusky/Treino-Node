@@ -1,0 +1,33 @@
+existe a variável let, que permite criar uma variável que vai existir somente dentro do bloco de código
+que ela foi criada. Muito interessante mesmo.
+
+uma forma legal de definir funções é let f = ()=>{return 1}
+
+
+podemos executar rapidamente algo no node com a flag -e(eval): node -e "console.log('oi');"
+
+todo programa/arquivo em node é um módulo. Nunca esquecer
+
+diferente do javascript convencional node apresenta algumas palavras/objetos diferente dos encontrados nas versões
+dos browsers. Entre elas:
+- process
+- global
+- module.exports
+- exports
+
+uma variável com global indica que ela pode ser usada em qualquer script ou programa que o chame.
+principais propriedades do objeto global
+
+-   process
+-   require()
+-   module and module.exports
+-   console and console.log()`
+-   setTimeout() and setInterval()
+-   __dirname and __filename
+
+
+module.exports é uma variável global
+require para importar coisas.
+se recomenda usar o module.exports para inportar funções. O motivo é que são mais versáteis 
+
+
